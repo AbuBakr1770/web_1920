@@ -1,0 +1,10 @@
+.body{
+  background-color: purple;
+  height: 75vh;
+}
+
+.thumb-img{
+  background-color: black;
+  height: 60vh;
+  width: 60vh;
+}
