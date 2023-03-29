@@ -17,21 +17,21 @@ export class ProjectsComponent {
     navSpeed: 700,
     // margin:1,
     navText: ['', ''],
-    items:1,
+    items:2,
     autoplay:true,
-    autoplaySpeed:3000,
+    autoplaySpeed:2500,
     // nav: true,
-    // responsive: {
-    //   0: {
-    //     items: 1
-    //   },
-    //   400: {
-    //     items: 2
-    //   },
-    //   740: {
-    //     items: 3
-    //   },
-    // },
+    responsive: {
+      0: {
+        items: 1
+      },
+      400: {
+        items: 2
+      },
+      740: {
+        items: 3
+      },
+    },
   }
 
 }

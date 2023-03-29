@@ -19,6 +19,7 @@ import { BenefitsComponent } from './components/benefits/benefits.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { Testimonials2Component } from './components/testimonials2/testimonials2.component';
 
 
 
@@ -34,7 +35,8 @@ import { FooterComponent } from './components/footer/footer.component';
     BenefitsComponent,
     TestimonialsComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    Testimonials2Component
   ],
   imports: [
     BrowserModule,
