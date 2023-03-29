@@ -15,6 +15,8 @@ import { ServicesComponent } from './components/services/services.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { BenefitsComponent } from './components/benefits/benefits.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
     ServicesComponent,
     ProjectsComponent,
     BenefitsComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
