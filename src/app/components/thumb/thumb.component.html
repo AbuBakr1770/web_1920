@@ -1,25 +1,35 @@
 <div class="body">
 
-  <div class="container">
+  <div class="container ms-2">
 
     <div class="row" style="height: 60vh;">
-      <div class="col-md-6 my-auto">
+      <div class="col-md-6 my-auto text-white thumb-text">
         <h1>Build.</h1>
         <h1>Invest.</h1>
         <h1>Innovate.</h1>
       </div>
       <div class="col-md-6 my-auto">
 
-        <div class="thumb-img">
-
-        </div>
+        <img src="../../../assets/img/thumb-img.jpg" class="img-fluid" alt="">
 
       </div>
     </div>
   </div>
 
-  <div class="partners">
-    <h2>our amazing partners</h2>
-    <h1>carousel goes here</h1>
+  <div class="partners text-white">
+    <h4 >our amazing partners</h4>
+
+    <div class="partner-carousel w-50">
+
+      <owl-carousel-o [options]="customOptions">
+        <ng-template carouselSlide><img src="../../../assets/img/partners/client-1.png" class="client-img" alt=""></ng-template>
+        <ng-template carouselSlide><img src="../../../assets/img/partners/client-2.png" class="client-img" alt=""></ng-template>
+        <ng-template carouselSlide><img src="../../../assets/img/partners/client-3.png" class="client-img" alt=""></ng-template>
+        <ng-template carouselSlide><img src="../../../assets/img/partners/client-4.png"  class="client-img"alt=""></ng-template>
+        <ng-template carouselSlide><img src="../../../assets/img/partners/client-5.png" class="client-img" alt=""></ng-template>
+        <ng-template carouselSlide><img src="../../../assets/img/partners/client-6.png" class="client-img" alt=""></ng-template>
+
+      </owl-carousel-o>
+    </div>
   </div>
 </div>

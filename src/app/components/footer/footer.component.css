@@ -9,6 +9,9 @@ li {
 }
 
 .body{
-  background-color: blueviolet;
-  height: auto;
+  background-image: url('../../../assets/img/team/team-2.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  opacity: 1.7;
 }

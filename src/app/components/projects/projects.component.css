@@ -1,4 +1,9 @@
 .project-carousel{
-  background-color: blueviolet;
-  height: 45vh;
+  height: auto;
+  width: auto;
+}
+
+.client-img{
+  height: 510px;
+  width: auto;
 }

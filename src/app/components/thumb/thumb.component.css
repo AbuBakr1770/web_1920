@@ -1,10 +1,24 @@
 .body{
-  background-color: purple;
+  background-image: url('../../../assets/img/Thumb-bg2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* width: auto; */
   height: 75vh;
+  opacity: 1.7;
 }
 
 .thumb-img{
-  background-color: black;
+  background-color: azure;
   height: 60vh;
   width: 60vh;
+}
+
+.thumb-text{
+  font-size: 30px;
+}
+
+.client-img{
+  height: 35px;
+  width: auto !important;
 }
